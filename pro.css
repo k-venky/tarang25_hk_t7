@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    background-color: orange;
+    border-radius: 5px;
+    text-decoration: orange;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form textarea {
+    width: 80%;
+    height: 100px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: black;
+    border: orange;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+/* Styling for new sections */
+#tharang, #other {
+    background-color: #eef5ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
